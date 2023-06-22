@@ -14,6 +14,10 @@
     /* border: 1px solid red; */
 }
 
+button {
+    cursor: pointer;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     background-color: var(--white-color);
@@ -422,6 +426,7 @@ button.submit:hover {
     text-decoration: underline;
 }
 
+
 /* MEDIA QUERIES */
 
 @media only screen and (max-width: 1330px) {
@@ -457,6 +462,24 @@ button.submit:hover {
         justify-content: center;
         margin: 40px 0;
     }
+
+    .banner-02 {
+        background-image: url(./assets/img/img_016.jpg);
+        /* background-repeat: no-repeat; */
+        width: 100%;
+        height: 30svh;
+        min-height: 320px;
+        max-height: 700px;
+        /* border: 1px solid var(--dark-color); */
+        /* border-radius: 20px; */
+        position: relative;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        /* align-items: center;
+        justify-content: center; */
+        padding: 20px;
+    }
 }
 
 /* MEDIA QUERIES TABLET */
@@ -471,6 +494,8 @@ button.submit:hover {
         background-position: center;
         background-size: cover;
     }
+
+    
 
     div.top-section-img img {
         width: 100%;
@@ -487,6 +512,17 @@ button.submit:hover {
         list-style: none;
         gap: 5%;
         margin: 0 0 250px 0
+    }
+
+    .banner-text-cta .banner-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px auto 80px auto;
+        width: 200px;
+        height: 60px;
+        border-radius: 200px;
+        fill: none;
     }
 
     .footer-row {
@@ -687,16 +723,16 @@ button.submit:hover {
         /* background-repeat: no-repeat; */
         width: 100%;
         height: 15svh;
-        min-height: 320px;
-        max-height: 700px;
+        /* min-height: 320px; */
+        /* max-height: 700px; */
         /* border: 1px solid var(--dark-color); */
         /* border-radius: 20px; */
         position: relative;
         background-position: center;
         background-size: cover;
         display: flex;
-        align-items: center;
-        justify-content: center;
+        /* align-items: center;
+        justify-content: center; */
         padding: 20px;
     }
 
